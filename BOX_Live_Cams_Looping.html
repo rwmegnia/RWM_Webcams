@@ -1,0 +1,448 @@
+<html>
+	<head>
+	</head>
+	<style>
+		body {background-color: black;
+			  overflow: hidden;}
+		.noScroll{
+			
+		}
+		.iframeContainer{
+			position:relative;
+		}
+		.captionOverlay{	
+			color: white;
+			margin: auto;
+			width: 50%;
+			font-family: "Arial", Verdana, sans-serif;
+			font-size: 40px;
+			text-shadow: black 0.1em 0.1em 0.2em, 0.1em 0.1em 0.4em black, -0.1em -0.1em 0.4em black;			
+		}
+		.title{
+			color:white;
+			margin: auto;
+			width: 50%;
+			font-family: "Arial", Verdana, sans-serif;
+			font-size: 60px;
+			text-shadow: black 0.1em 0.1em 0.2em, 0.1em 0.1em 0.4em black, -0.1em -0.1em 0.4em black;
+		}
+		.frame {
+		    -ms-transform: scale(1.0);
+		    -moz-transform: scale(1.0);
+		    -o-transform: scale(1.0);
+		    -webkit-transform: scale(1.0);
+		    transform: scale(1.5);
+
+		    -ms-transform-origin: 150 125;
+		    -moz-transform-origin: 150 125;
+		    -o-transform-origin: 150 125;
+		    -webkit-transform-origin: 150 125;
+		    transform-origin: 150 125;
+
+		    width: 320px;
+		    height: 240px;
+		    border: 0;
+		}
+	</style>
+	<body>
+		<table>
+			<tr>
+				<td>
+					<div class="Boston">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/BatBeSUiJUM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Zakim Bridge</center>
+							</div>
+					</div>
+					<div class="Boston">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/WA1SjZbvPNI?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Boston Harbor</center>
+							</div>
+					</div>
+					<div class="Boston">
+							<div class="iframeContainer"> 
+								<center><iframe width="560" height="315" src="https://www.youtube.com/embed/f1DyY6a44yA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Cambridge</center>
+							</div>
+					</div>
+				</td>
+				<td>
+					<div class="Providence">
+						<div class="iframeContainer"> 
+							<center><iframe scrolling="no" id="Prov Tower" frameborder="0" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-08-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Prov Tower").src+="";
+										},60000);
+									</script>
+							</center>
+						</div>
+						<div class="captionOverlay">
+							<center>Prov Tower</center>
+						</div>
+					</div>
+					<div class="Providence">
+						<div class="iframeContainer"> 
+							<center><iframe scrolling="no" id="East Providence" frameborder="0" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-01-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("East Providence").src+="";
+										},60000);
+									</script>
+							</center>
+						</div>
+						<div class="captionOverlay">
+							<center>East Providence</center>
+						</div>
+					</div>
+					<div class="Providence">
+						<div class="iframeContainer"> 
+							<center><iframe class="noScroll" scrolling="no" frameborder="0" width="630" height="395" src="https://control.videolinq.com/public/e4McLghM?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></center>
+						</div>
+						<div class="captionOverlay">
+							<center>Kettle Point</center>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="EMA">
+						<div class="iframeContainer"> 
+							<center><iframe width="630" height="395" src="https://www.youtube.com/embed/ZlmEdBfHqsM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+						</div>
+						<div class="captionOverlay">
+							<center>Beverly</center>
+						</div>
+					</div>
+					<div class="EMA">
+						<div class="iframeContainer"> 
+							<center><iframe width="630" height="395" src="https://www.youtube.com/embed/E0N2NbxNhf8?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+						</div>
+						<div class="captionOverlay">
+							<center>Marshfield</center>
+						</div>
+					</div>
+					<div class="EMA">
+						<div class="iframeContainer"> 
+							<center><iframe width="630" height="395" src="https://www.youtube.com/embed/NqhAaA2mGcA?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+						</div>
+						<div class="captionOverlay">
+							<center>Salisbury Beach</center>
+						</div>
+					</div>
+					<div class="EMA">
+						<div class="iframeContainer"> 
+							<center><iframe frameborder="0" id="Scituate" width="630" height="395" src="https://video.nest.com/embedded/live/RdeEh46XQr?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></center>
+								<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Scituate").src+="";
+										},60000);
+								</script>
+						</div>
+						<div class="captionOverlay">
+							<centeR>Scituate Harbor</center>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<center><div class="captionOverlay">Boston</div></center>
+				</td>
+				<td>
+					<center><div class="captionOverlay">Providence</div></center>
+				</td>
+				<td>
+					<center><div class="captionOverlay">Eastern  MA</div></center>
+				</td>			
+			</tr>
+			<tr>
+				<td>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/Ts_EvKfWa2I?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Cape Cod Canal</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/IoOgIcmVC_w?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Wellfleet</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/moLxu7LGuKk?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Falmouth</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe id="NTK_MAIN" allowfullscreen webkitallowfullscreen mozallowfullscreen src="https://video.nest.com/embedded/live/VnyQXWPYbq?autoplay=1&mute=1" frameborder="0" width="630" height="395" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("NTK_MAIN").src+="";
+										},60000);
+									</script>
+							</div>
+							<div class="captionOverlay">
+								<center>NTK Main St.</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/Y0BRntF3178?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Vineyard Haven</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/MAuXQgZsq3Y?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Menemsha Harbor (MVY)</center>
+							</div>
+					</div>
+					<div class="Cape">
+							<div class="iframeContainer"> 
+								<center><iframe width="560" height="315" src="https://www.youtube.com/embed/TxkJIyRsF-U?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Vineyard Ferry</center>
+							</div>
+					</div>
+
+				</td>
+				<td>
+					<div class="RI">
+							<div class="iframeContainer"> 
+								<center><iframe scrolling="no" id="Point Judith" frameborder="0" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-07-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Point Judith").src+="";
+										},60000);
+									</script>
+								</center>
+							</div>
+							<div class="captionOverlay">
+								<center>Point Judith</center>
+							</div>
+					</div>
+					<div class="RI">
+							<div class="iframeContainer"> 
+								<center><iframe scrolling="no" id="Smithfield" frameborder="0" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-06-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Smithfield").src+="";
+										},60000);
+									</script>								
+								</center>
+							</div>
+							<div class="captionOverlay">
+								<center>Smithfield</center>
+							</div>
+					</div>
+					<div class="RI">
+							<div class="iframeContainer"> 
+								<center><iframe scrolling="no" frameborder="0" id="Narragansett" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-03-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Narragansett").src+="";
+										},60000);
+									</script>
+								</center>
+							</div>
+							<div class="captionOverlay">
+								<center>Narragansett</center>
+							</div>
+					</div>
+					<div class="RI">
+							<div class="iframeContainer"> 
+								<center><iframe scrolling="no" id="Warwick" frameborder="0" class="noScroll"  height="395px" width="630px" src="http://api.wetmet.net/client-content/PlayerFrame.php?CAMERA=190-02-01&CFVER=WM&WIDTH=640&HEIGHT=360?autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>									
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Warwick").src+="";
+										},60000);
+									</script>
+								</center>
+							</div>
+							<div class="captionOverlay">
+								<center>Warwick</center>
+							</div>
+					</div>
+
+				</td>
+				<td>
+					<div class="CT">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/3r52UXK-1QY?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Northampton</center>
+							</div>
+					</div>
+					<div class="CT">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="http://portal.hdontap.com/s/embed/?stream=dinand_holycross-CUST&ratio=16:9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Worcester</center>
+							</div>
+					</div>
+					<div class="CT">
+							<div class="iframeContainer"> 
+								<center><iframe width="630" height="395" src="https://www.youtube.com/embed/liNviF0C_Bc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+							</div>
+							<div class="captionOverlay">
+								<center>Fitchburg</center>
+							</div>
+					</div>
+					<!--div class="CT">
+							<div class="iframeContainer"> 
+								<center><iframe class="frame" id="Hartford" scrolling="no" frameborder="0" class="noScroll" width="240" height="320" src="https://cttravelsmart.org/map/Cctv/404340--1" frameborder="0" allow="accelerometer;autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Hartford
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Hartford").src+="";
+										},3500);
+									</script>
+								</center>
+							</div>
+							<div class="captionOverlay" style="z-index: 3;">
+								<center>Hartford</center>
+							</div>
+					</div>
+					<div class="CT">
+							<div class="iframeContainer"> 
+								<center><iframe class="frame" id="Tolland" scrolling="no" frameborder="0" class="noScroll" height="240px" width="320px" src="https://cttravelsmart.org/map/Cctv/404393--1"></iframe>
+									<script type=text/javascript>
+										setInterval(function(){
+											document.getElementById("Tolland").src+="";
+										},5000);
+									</script>
+								</center>
+							</div>
+							<div class="captionOverlay">
+								<center>Tolland</center>
+							</div>
+					</div-->
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<center><div class="captionOverlay">Cape/Islands</div></center>
+				</td>
+				<td>
+					<center><div class="captionOverlay">Rhode Island</div></center>
+				</td>
+				<td>
+					<center><div class="captionOverlay">Western MA/CT</div></center>
+				</td>
+					<script>
+						var EMAIndex = 0;
+						EMACarousel();
+
+						function EMACarousel() {
+							var i;
+							var x = document.getElementsByClassName("EMA");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							EMAIndex++;
+							if (EMAIndex > x.length) {EMAIndex = 1} 
+							x[EMAIndex-1].style.display = "block"; 
+							setTimeout(EMACarousel, 60000); 
+						}
+						
+						var BostonIndex = 0;
+						BostonCarousel();
+
+						function BostonCarousel() {
+							var i;
+							var x = document.getElementsByClassName("Boston");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							BostonIndex++;
+							if (BostonIndex > x.length) {BostonIndex = 1} 
+							x[BostonIndex-1].style.display = "block"; 
+							setTimeout(BostonCarousel, 60000); 
+						}
+						
+						var ProvidenceIndex = 0;
+						ProvidenceCarousel();
+
+						function ProvidenceCarousel() {
+							var i;
+							var x = document.getElementsByClassName("Providence");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							ProvidenceIndex++;
+							if (ProvidenceIndex > x.length) {ProvidenceIndex = 1} 
+							x[ProvidenceIndex-1].style.display = "block"; 
+							setTimeout(ProvidenceCarousel, 60000); 
+						}
+						
+						var CapeIndex = 0;
+						CapeCarousel();
+
+						function CapeCarousel() {
+							var i;
+							var x = document.getElementsByClassName("Cape");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							CapeIndex++;
+							if (CapeIndex > x.length) {CapeIndex = 1} 
+							x[CapeIndex-1].style.display = "block"; 
+							setTimeout(CapeCarousel, 60000); 
+						}
+
+						var RIIndex = 0;
+						RICarousel();
+
+						function RICarousel() {
+							var i;
+							var x = document.getElementsByClassName("RI");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							RIIndex++;
+							if (RIIndex > x.length) {RIIndex = 1} 
+							x[RIIndex-1].style.display = "block"; 
+							setTimeout(RICarousel, 60000); 
+						}
+						var CTIndex = 0;
+						CTCarousel();
+
+						function CTCarousel() {
+							var i;
+							var x = document.getElementsByClassName("CT");
+							for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none"; 
+							}
+							CTIndex++;
+							if (CTIndex > x.length) {CTIndex = 1} 
+							x[CTIndex-1].style.display = "block"; 
+							setTimeout(CTCarousel, 60000); 
+						}
+					</script>				
+			</tr>
+		</table>
+	</body>
+</html>
